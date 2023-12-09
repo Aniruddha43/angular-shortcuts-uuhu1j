@@ -1,0 +1,9 @@
+<button (click)="show()" [shortcut]="'save'" [priority]="0">F1 Priority 0 (Show)</button>
+<button (click)="hide()" [shortcut]="'F3'" [altKey]="true">Alt + F3 (Hide) </button>
+
+<hello *ngIf="isHelloShow" name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+
